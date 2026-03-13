@@ -1,0 +1,12 @@
+body { font-family: "Inter", "Segoe UI", sans-serif; background:#020817; color:#e2e8f0; }
+.carb-bg {
+  background-image: linear-gradient(135deg,rgba(8,47,73,.9),rgba(2,6,23,.96)), url('/project/assets/images/carbon-pattern.svg');
+  background-size: cover, 280px;
+}
+.section-grid { background-image: linear-gradient(rgba(148,163,184,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,.08) 1px, transparent 1px); background-size: 28px 28px; }
+.card { background:linear-gradient(160deg,rgba(15,23,42,.8),rgba(2,6,23,.9)); border:1px solid rgba(71,85,105,.65); border-radius:0.75rem; }
+.nav-link { position:relative; }
+.nav-link::after { content:""; position:absolute; left:0; bottom:-8px; width:0; height:2px; background:#06b6d4; transition: width .2s; }
+.nav-link:hover::after { width:100%; }
+.hero-button-primary { background:linear-gradient(90deg,#0891b2,#2563eb); }
+.hero-button-secondary { border:1px solid rgba(148,163,184,.6); }
