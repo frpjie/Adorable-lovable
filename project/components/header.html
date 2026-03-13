@@ -1,38 +1,16 @@
-<header class="sticky top-0 z-40 border-b border-slate-700/70 bg-slate-950/85 backdrop-blur">
-  <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-    <a href="/project/index.html" class="flex items-center gap-3">
-      <div class="h-9 w-9 rounded bg-cyan-500/20 ring-1 ring-cyan-400/50"></div>
-      <div>
-        <p class="text-lg font-semibold tracking-wide text-slate-100">FRP-X</p>
-        <p class="text-xs uppercase tracking-[0.2em] text-slate-400">Composite Systems</p>
-      </div>
-    </a>
-    <button id="mobileMenuBtn" class="lg:hidden rounded border border-slate-600 px-3 py-2 text-slate-200">Menu</button>
-    <nav id="mainNav" class="hidden lg:block">
-      <ul class="flex items-center gap-6 text-sm text-slate-200">
-        <li><a class="nav-link" href="/project/index.html">Home</a></li>
-        <li><a class="nav-link" href="/project/pages/products.html">Products</a></li>
-        <li><a class="nav-link" href="/project/pages/solutions.html">Solutions</a></li>
-        <li><a class="nav-link" href="/project/pages/technology.html">Technology</a></li>
-        <li><a class="nav-link" href="/project/pages/store.html">Store</a></li>
-        <li><a class="nav-link" href="/project/pages/engineering-tools.html">Engineering Tools</a></li>
-        <li><a class="nav-link" href="/project/pages/resources.html">Resources</a></li>
-        <li><a class="nav-link" href="/project/pages/about.html">About</a></li>
-        <li><a class="nav-link" href="/project/pages/contact.html">Contact</a></li>
-      </ul>
+<header class="sticky top-0 z-50 border-b border-slate-700/70 bg-slate-950/90 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="/project/index.html" class="flex items-center gap-3" aria-label="FRP-X Home">
+        <span class="h-10 w-10 rounded bg-cyan-500/15 ring-1 ring-cyan-300/50"></span>
+        <span>
+          <strong class="block text-lg leading-none text-slate-100">FRP-X</strong>
+          <span class="text-xs uppercase tracking-[0.2em] text-slate-400">Composite Systems</span>
+        </span>
+      </a>
+      <button data-menu-button aria-expanded="false" aria-controls="mobile-menu" class="rounded border border-slate-600 px-3 py-2 text-sm text-slate-200 lg:hidden">Menu</button>
+      <nav aria-label="Primary" class="hidden lg:block"><ul class="flex items-center gap-6 text-sm text-slate-100"><li><a class="nav-link" href="/project/index.html" aria-current="page">Home</a></li><li><a class="nav-link" href="/project/pages/products.html">Products</a></li><li><a class="nav-link" href="/project/pages/solutions.html">Solutions</a></li><li><a class="nav-link" href="/project/pages/technology.html">Technology</a></li><li><a class="nav-link" href="/project/pages/store.html">Store</a></li><li><a class="nav-link" href="/project/pages/engineering-tools.html">Engineering Tools</a></li><li><a class="nav-link" href="/project/pages/resources.html">Resources</a></li><li><a class="nav-link" href="/project/pages/about.html">About</a></li><li><a class="nav-link" href="/project/pages/contact.html">Contact</a></li></ul></nav>
+    </div>
+    <nav id="mobile-menu" data-mobile-menu aria-label="Mobile" class="hidden border-t border-slate-700 bg-slate-900 lg:hidden">
+      <ul class="space-y-1 p-3 text-sm text-slate-100"><li><a href="/project/index.html" class="block rounded px-3 py-2 hover:bg-slate-800" aria-current="page">Home</a></li><li><a href="/project/pages/products.html" class="block rounded px-3 py-2 hover:bg-slate-800">Products</a></li><li><a href="/project/pages/solutions.html" class="block rounded px-3 py-2 hover:bg-slate-800">Solutions</a></li><li><a href="/project/pages/technology.html" class="block rounded px-3 py-2 hover:bg-slate-800">Technology</a></li><li><a href="/project/pages/store.html" class="block rounded px-3 py-2 hover:bg-slate-800">Store</a></li><li><a href="/project/pages/engineering-tools.html" class="block rounded px-3 py-2 hover:bg-slate-800">Engineering Tools</a></li><li><a href="/project/pages/resources.html" class="block rounded px-3 py-2 hover:bg-slate-800">Resources</a></li><li><a href="/project/pages/about.html" class="block rounded px-3 py-2 hover:bg-slate-800">About</a></li><li><a href="/project/pages/contact.html" class="block rounded px-3 py-2 hover:bg-slate-800">Contact</a></li></ul>
     </nav>
-  </div>
-  <nav id="mobileNav" class="hidden border-t border-slate-700/70 bg-slate-900 lg:hidden">
-    <ul class="space-y-3 px-4 py-4 text-sm text-slate-100">
-      <li><a href="/project/index.html">Home</a></li>
-      <li><a href="/project/pages/products.html">Products</a></li>
-      <li><a href="/project/pages/solutions.html">Solutions</a></li>
-      <li><a href="/project/pages/technology.html">Technology</a></li>
-      <li><a href="/project/pages/store.html">Store</a></li>
-      <li><a href="/project/pages/engineering-tools.html">Engineering Tools</a></li>
-      <li><a href="/project/pages/resources.html">Resources</a></li>
-      <li><a href="/project/pages/about.html">About</a></li>
-      <li><a href="/project/pages/contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  </header>
